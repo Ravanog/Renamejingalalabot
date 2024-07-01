@@ -19,7 +19,7 @@ class Database:
             prefix=None,
             suffix=None,
             metadata=False,
-            metadata_code=""" -map 0 -c:s copy -c:a copy -c:v copy -metadata title="Powered By:- @Kdramaland" -metadata author="@Snowball_Official" -metadata:s:s title="Subtitled By :- @Kdramaland" -metadata:s:a title="By :- @Kdramaland" -metadata:s:v title="By:- @Snowball_Official" """
+            metadata_code=""" -map 0 -c:s copy -c:a copy -c:v copy -metadata title="Powered By:- @Kr_Movie2" -metadata author="@TG_UPDATES1" -metadata:s:s title="Subtitled By :- @Kr_Movie2" -metadata:s:a title="By :- @TG_UPDATES1" -metadata:s:v title="By:- @Kr_Movie2" """
         )
 
     async def add_user(self, b, m):
