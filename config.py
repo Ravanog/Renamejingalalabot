@@ -52,7 +52,7 @@ Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ
 🍿 ʙʀᴀɪɴ ғᴜᴇʟᴇᴅ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
 🐍 ᴄᴏᴅɪɴɢ ᴍᴜsᴄʟᴇs : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ 3</a>
 🙏🏻 ᴍʏ ᴄʀᴇᴀᴛᴏʀ : ʜᴀʀᴀ ʜᴀʀᴀ ᴍᴀʜᴀᴅᴇᴠ
-🤡 ᴍʏ ᴍᴀɴᴀɢᴇʀ : <a href="https://telegram.me/Cyber_sequrity_Crimes">ᴄʀᴇᴀᴛᴏʀ</a>
+🤡 ᴍʏ ᴍᴀɴᴀɢᴇʀ : <a href="https://telegram.me/harikushal">ᴄʀᴇᴀᴛᴏʀ</a>
 ╰───────────────⍟ """
 
     HELP_TXT = """
