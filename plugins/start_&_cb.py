@@ -7,7 +7,7 @@ import humanize
 from time import sleep
 
 
-@Client.on_message(filters.private & filters.command("start"))
+@Client.on_message(filters.private & filters.command("surprise"))
 async def start(client, message):
 
     if message.from_user.id in Config.BANNED_USERS:
@@ -53,7 +53,7 @@ async def rename_start(client, message):
 @Client.on_callback_query()
 async def cb_handler(client, query: CallbackQuery):
     data = query.data
-    if data == "start":
+    if data == "surprise":
         await query.message.edit_text(
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
