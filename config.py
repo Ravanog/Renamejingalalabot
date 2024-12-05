@@ -40,11 +40,11 @@ class Config(object):
 class Txt(object):
     # part of text configuration
 
-    SURPRISE_TXT = """<b>ʜɪɪ {} ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ ʙᴏᴛ. 
+    START_TXT = """<b>ʜɪɪ {} ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ ʙᴏᴛ. 
     
 ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ 👇 ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ꜱᴇᴇ ᴍᴏʀᴇ ᴄᴏᴍᴍᴀɴᴅꜱ 😁</b>"""
     
-    START_TXT = """<b>Hᴀɪ {} 👋,
+    SURPRISE_TXT = """<b>Hᴀɪ {} 👋,
 Tʜɪs Is Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ
 Usɪɴɢ Tʜɪs Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ & Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oꜰ Yᴏᴜʀ Fɪʟᴇ
 Yᴏᴜ Cᴀɴ Aʟsᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ & Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ
