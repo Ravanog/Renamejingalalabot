@@ -94,7 +94,7 @@ async def cb_handler(client, query: CallbackQuery):
     data = query.data
     if data == "surprise":
         await query.message.edit_text(
-            text=Txt.START_TXT.format(query.from_user.mention),
+            text=Txt.SURPRISE_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton('⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Kr_Movie2'),
