@@ -3,7 +3,7 @@ import time
 from datetime import datetime
 from pytz import timezone
 from config import Config, Txt
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import re
 
 
@@ -31,9 +31,7 @@ async def progress_for_pyrogram(current, total, ud_type, message, start):
             await message.edit(
                 text="{}\n\n{}".format(ud_type, tmp),               
                 reply_markup=InlineKeyboardMarkup( [[
-                    InlineKeyboardButton("❗️ᴄᴀɴᴄᴇʟ ᴛʜɪꜱ ꜰᴜɴᴄᴛɪᴏɴ❗️", callback_data="cancel")
-                    ]]
-                )
+                    InlineKeyboardButton("❗️ᴄᴀɴᴄᴇʟ ᴛʜɪꜱ ꜰᴜɴᴄᴛɪᴏɴ❗️", callback_data="close")]])
             )
         except:
             pass
@@ -45,16 +43,6 @@ def generate_progress_bar(percentage):
         + "".join(["░" for _ in range(20 - math.floor(percentage / 5))])
     )
     
-    elif data == "cancel":
-        try:
-            await query.message.delete()
-            await query.message.reply_to_message.delete()
-            await query.message.continue_propagation()
-        except:
-            await query.message.delete()
-            await query.message.continue_propagation()
-
-
 def calculate_times(diff, current, total, speed):
     elapsed_time = TimeFormatter(milliseconds=round(diff) * 1000)
     time_to_completion = TimeFormatter(round((total - current) / speed) * 1000)
