@@ -39,6 +39,11 @@ class Config(object):
 
 class Txt(object):
     # part of text configuration
+
+    SURPRISE_TXT = """<b>ʜɪɪ {} ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ ʙᴏᴛ. 
+    
+ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ 👇 ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ꜱᴇᴇ ᴍᴏʀᴇ ᴄᴏᴍᴍᴀɴᴅꜱ 😁</b>"""
+    
     START_TXT = """<b>Hᴀɪ {} 👋,
 Tʜɪs Is Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ
 Usɪɴɢ Tʜɪs Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ & Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oꜰ Yᴏᴜʀ Fɪʟᴇ
@@ -95,4 +100,5 @@ Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 ➜ ⏳️ ᴅᴏɴᴇ : {0}%
 ➜ 🚀 sᴘᴇᴇᴅ: {3}/s
 ➜ ⏰️ ᴇᴛᴀ: {4}
+➜ ©️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @Hari_Search
 ╰━━━━━━━━━━━━━━━➜ </b>"""
