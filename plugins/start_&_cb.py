@@ -66,8 +66,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.SURPRISE_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton('⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Kr_Movie2'),
-                InlineKeyboardButton('🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/TG_SUPPORT_GROUP')
+                InlineKeyboardButton('👀 ꜱᴇᴇ ᴏᴜʀ ᴄʜᴀɴɴᴇʟꜱ ᴀɴᴅ ɢʀᴏᴜᴘꜱ', callback_data='channel'),
             ], [
                 InlineKeyboardButton('❄️ ᴀʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('❗ ʜᴇʟᴘ', callback_data='help')
@@ -82,6 +81,16 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton("⟪ ʙᴀᴄᴋ", callback_data="start")
             ]])
         )
+elif data == "channel":
+        await query.message.edit_text(
+            text=Txt.CHANNEL_TXT,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup([[
+                InlineKeyboardButton("✘ ᴄʟᴏsᴇ", callback_data="close"),
+                InlineKeyboardButton("⟪ ʙᴀᴄᴋ", callback_data="start")
+            ]])
+        )
+    
     elif data == "about":
         await query.message.edit_text(
             text=Txt.ABOUT_TXT.format(client.mention),
