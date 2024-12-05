@@ -3,7 +3,7 @@ import time
 from datetime import datetime
 from pytz import timezone
 from config import Config, Txt
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 import re
 
 
@@ -44,6 +44,15 @@ def generate_progress_bar(percentage):
         "".join(["█" for _ in range(math.floor(percentage / 5))])
         + "".join(["░" for _ in range(20 - math.floor(percentage / 5))])
     )
+    
+    elif data == "cancel":
+        try:
+            await query.message.delete()
+            await query.message.reply_to_message.delete()
+            await query.message.continue_propagation()
+        except:
+            await query.message.delete()
+            await query.message.continue_propagation()
 
 
 def calculate_times(diff, current, total, speed):
