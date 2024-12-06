@@ -97,7 +97,12 @@ Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 
 📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Kr_Movie2
 """
-
+    
+    METADATA_TXT = """<b><u>🖼️  HOW TO SET CUSTOM METADATA</u></b>
+For Example :-
+<code>By @Kr_Movie2</code>
+💬 For Any Help Contact @Harikushal"""
+    
     PROGRESS_BAR = """<b>\n
 ᴘʀᴏɢʀᴇss ʙᴀʀ 
 🗃️ sɪᴢᴇ: {1} | {2}
