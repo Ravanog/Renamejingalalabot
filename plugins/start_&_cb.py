@@ -37,14 +37,14 @@ async def rename_start(client, message):
 
     try:
         text = f"""**__ᴡʜᴀᴛ ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴍᴇ ᴛᴏ ᴅᴏ ᴡɪᴛʜ ᴛʜɪs ғɪʟᴇ.?__**\n\n**ғɪʟᴇ ɴᴀᴍᴇ** :- `{filename}`\n\n**ғɪʟᴇ sɪᴢᴇ** :- `{filesize}`"""
-        buttons = [[InlineKeyboardButton("📝 sᴛᴀʀᴛ ʀᴇɴᴀᴍᴇ 📝", callback_data="rename")],
-                   [InlineKeyboardButton("✖️ ᴄᴀɴᴄᴇʟ ✖️", callback_data="close")]]
+        buttons = [[InlineKeyboardButton("📝 sᴛᴀʀᴛ ʀᴇɴᴀᴍᴇ", callback_data="rename")],
+                   [InlineKeyboardButton("✖️ ᴄᴀɴᴄᴇʟ", callback_data="close")]]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
     except FloodWait as e:
         await sleep(e.value)
         text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
-        buttons = [[InlineKeyboardButton("📝 sᴛᴀʀᴛ ʀᴇɴᴀᴍᴇ 📝", callback_data="rename")],
-                   [InlineKeyboardButton("✖️ ᴄᴀɴᴄᴇʟ ✖️", callback_data="close")]]
+        buttons = [[InlineKeyboardButton("📝 sᴛᴀʀᴛ ʀᴇɴᴀᴍᴇ", callback_data="rename")],
+                   [InlineKeyboardButton("✖️ ᴄᴀɴᴄᴇʟ", callback_data="close")]]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
     except:
         pass
@@ -92,8 +92,13 @@ async def cb_handler(client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton('ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ 𝟹 🔎',  url='https://t.me/HK_Movies_Request'),
             ],[ 
-                InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ𝟷 📥',  url='https://t.me/+Il2xwa1M-g82Zjhl'),
-                InlineKeyboardButton("⟪ ʙᴀᴄᴋ", callback_data="start")
+                InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ 📥',  url='https://t.me/+Il2xwa1M-g82Zjhl'),
+                InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ 🪄',  url='https://t.me/TG_BOTS_UPDATE'),
+            ],[
+                InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ 🔥',  url='https://t.me/+0e9UjA2Thn83MGQ1'),
+                InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ ɢʀᴏᴜᴘ 🪡',  url='https://t.me/Kr_Movie2'),
+            ],[
+                InlineKeyboardButton("« ʙᴀᴄᴋ »", callback_data="start")
             ]])
         )
     
