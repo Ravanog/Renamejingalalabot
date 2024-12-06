@@ -86,7 +86,13 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.CHANNEL_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("✘ ᴄʟᴏsᴇ", callback_data="close"),
+                InlineKeyboardButton('ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ 𝟷 🔎',  url='https://t.me/+nDTaoJGRKJcxYmZl'),
+            ],[
+                InlineKeyboardButton('ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ 𝟸 🔎',  url='https://t.me/+_Ss2e1bjdn5lZGRl'),
+            ],[
+                InlineKeyboardButton('ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ 𝟹 🔎',  url='https://t.me/HK_Movies_Request'),
+            ],[ 
+                InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ𝟷 📥',  url='https://t.me/+Il2xwa1M-g82Zjhl'),
                 InlineKeyboardButton("⟪ ʙᴀᴄᴋ", callback_data="start")
             ]])
         )
