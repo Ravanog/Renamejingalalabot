@@ -81,7 +81,7 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton("⟪ ʙᴀᴄᴋ", callback_data="start")
             ]])
         )
-elif data == "channel":
+    elif data == "channel":
         await query.message.edit_text(
             text=Txt.CHANNEL_TXT,
             disable_web_page_preview=True,
