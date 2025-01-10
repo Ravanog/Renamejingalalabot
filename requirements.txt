@@ -1,5 +1,5 @@
 ffmpeg
-
+libjpeg-turbo
 
 pyrogram==2.0.80
 TgCrypto
