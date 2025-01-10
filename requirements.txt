@@ -1,4 +1,7 @@
-pyrogram
+
+
+
+pyrogram==2.0.80
 TgCrypto
 motor
 dnspython
@@ -9,10 +12,3 @@ pytz
 humanize
 pyromod
 ffmpeg-python
-Flask
-gunicorn
-telethon
-mongo
-translation
-pymongo
-ffmpeg
