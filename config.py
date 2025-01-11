@@ -108,7 +108,7 @@ Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 
   ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛʜʀᴏᴜɢʜ ᴜᴘɪ
 
-  <code>ᴜᴘɪ ɪᴅ : harikushal234@okicici</code>
+  ᴜᴘɪ ɪᴅ : <code>harikushal234@okicici</code>
 
 ɪғ ʏᴏᴜ ᴡɪsʜ ʏᴏᴜ ᴄᴀɴ sᴇɴᴅ ᴜs ss ᴏɴ - @harikushal</b>
     """
