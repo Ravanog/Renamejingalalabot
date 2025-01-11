@@ -18,7 +18,9 @@ async def start(client, message):
     await db.add_user(client, message)
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton('🔒 ꜱᴜʀᴘʀɪꜱᴇ', callback_data='start'),
-    ]])
+    ],[    
+        InlineKeyboardButton('💰 ᴅᴏɴᴀᴛᴇ', callback_data='haridonate'),
+        )
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)
     else:
