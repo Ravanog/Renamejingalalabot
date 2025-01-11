@@ -63,7 +63,7 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton('🔒 ꜱᴜʀᴘʀɪꜱᴇ', callback_data='start'),
             ],[    
                 InlineKeyboardButton('💰 ᴅᴏɴᴀᴛᴇ', callback_data='haridonate'),
-            ]])
+            ]]))
     elif data == "start":
         await query.message.edit_text(
             text=Txt.SURPRISE_TXT,
