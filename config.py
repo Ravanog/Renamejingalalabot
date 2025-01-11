@@ -53,14 +53,14 @@ class Txt(object):
 ᴀʟꜱᴏ ᴛʜɪꜱ ʙᴏᴛ ᴄᴏɴᴛᴀɪɴꜱ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴀɴᴅ ᴄᴜꜱᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴꜱ.
 """
 
-    ABOUT_TXT = """<b>╭───────────⍟
+    ABOUT_TXT = """<b>
 🙍‍♂️ ᴍy ɴᴀᴍᴇ : {}
 ⚙️ ᴄʜɪʟʟɪɴɢ ᴏɴ : <a href="https://www.heroku.com/">ʜᴇʀᴏᴋᴜ</a>
 🍿 ʙʀᴀɪɴ ғᴜᴇʟᴇᴅ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
 🐍 ᴄᴏᴅɪɴɢ ᴍᴜsᴄʟᴇs : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ 3</a>
 🙏🏻 ᴍʏ ᴄʀᴇᴀᴛᴏʀ : ʜᴀʀᴀ ʜᴀʀᴀ ᴍᴀʜᴀᴅᴇᴠ
 🤡 ᴍʏ ᴍᴀɴᴀɢᴇʀ : <a href="https://telegram.me/harikushal">ᴄʀᴇᴀᴛᴏʀ</a>
-╰───────────────⍟ """
+"""
     
     CHANNEL_TXT = """
 ʜᴇʟʟᴏ ᴀʟʟ ʟᴏᴏᴋ ʙᴇʟᴏᴡ 👇 ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ꜱᴇᴇ ᴏᴜʀ ᴄʜᴀɴɴᴇʟꜱ ᴀɴᴅ ɢʀᴏᴜᴘꜱ. 
@@ -108,9 +108,9 @@ Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 
   ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛʜʀᴏᴜɢʜ ᴜᴘɪ
 
-  ᴜᴘɪ ɪᴅ : harikushal234@okicici
+  <code>ᴜᴘɪ ɪᴅ : harikushal234@okicici</code>
 
-ɪғ ʏᴏᴜ ᴡɪsʜ ʏᴏᴜ ᴄᴀɴ sᴇɴᴅ ᴜs ss ᴏɴ - @harikushal
+ɪғ ʏᴏᴜ ᴡɪsʜ ʏᴏᴜ ᴄᴀɴ sᴇɴᴅ ᴜs ss ᴏɴ - @harikushal</b>
     """
     PROGRESS_BAR = """<b>\n
 ᴘʀᴏɢʀᴇss ʙᴀʀ 
