@@ -1,0 +1,16 @@
+name: my-bot
+services:
+  - name: work-bot
+    image:
+      # Use the Dockerfile in the current directory
+      dockerfile_path: ./Dockerfile
+    ports:
+      - protocol: HTTP
+        port: 3000
+    env:
+      - name: BOT_TOKEN
+        value: "your-bot-token"
+      - name: ANOTHER_ENV
+        value: "your-env-value"
+    regions:
+      - fra # Replace with your desired region (e.g., 'usa', 'sgp')
