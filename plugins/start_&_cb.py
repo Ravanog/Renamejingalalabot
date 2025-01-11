@@ -20,7 +20,7 @@ async def start(client, message):
         InlineKeyboardButton('🔒 ꜱᴜʀᴘʀɪꜱᴇ', callback_data='start'),
     ],[    
         InlineKeyboardButton('💰 ᴅᴏɴᴀᴛᴇ', callback_data='haridonate'),
-        )
+    ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)
     else:
@@ -72,6 +72,15 @@ async def cb_handler(client, query: CallbackQuery):
             ], [
                 InlineKeyboardButton('❄️ ᴀʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('❗ ʜᴇʟᴘ', callback_data='help')
+            ]])
+        )  
+        
+    elif data == "haridonate":
+        await query.message.edit_text(
+            text=Txt.DONATE_TXT,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup([[
+                InlineKeyboardButton('👨‍💻 ᴏᴡɴᴇʀ', url='https://t.me/+nDTaoJGRKJcxYmZl'),
             ]])
         )   
     elif data == "help":
