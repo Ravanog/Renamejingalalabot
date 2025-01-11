@@ -61,8 +61,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton('🔒 ꜱᴜʀᴘʀɪꜱᴇ', callback_data='start'),
+            ],[    
+                InlineKeyboardButton('💰 ᴅᴏɴᴀᴛᴇ', callback_data='haridonate'),
             ]])
-        )
     elif data == "start":
         await query.message.edit_text(
             text=Txt.SURPRISE_TXT,
@@ -81,6 +82,7 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton('👨‍💻 ᴏᴡɴᴇʀ', url='https://t.me/+nDTaoJGRKJcxYmZl'),
+                InlineKeyboardButton("« ʙᴀᴄᴋ", callback_data="start")
             ]])
         )   
     elif data == "help":
