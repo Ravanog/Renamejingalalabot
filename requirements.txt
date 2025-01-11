@@ -1,4 +1,4 @@
-
+ffmpeg==1.4
 pillow==11.1.0
 
 pyrogram==2.0.80
@@ -10,4 +10,4 @@ aiohttp
 pytz
 humanize
 pyromod
-ffmpeg-python
+ffmpeg-python==0.2.0
